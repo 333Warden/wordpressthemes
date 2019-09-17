@@ -1,0 +1,126 @@
+/**
+* Hier befinden sich die Styles für das Custom Template BLOCKS_TEMPLATE 
+*/
+
+.head {
+    color: darkblue;
+    font-style: italic;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor-styles-wrapper p.head {
+    color: darkblue;
+    font-style: italic;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.day {
+    margin-bottom: -1.5em;
+    color: darkred;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.date-color {
+    margin-bottom: -0.25em;
+    color: lightslategray;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filling-text {
+    margin-bottom: -1em;
+    color: black;
+    font-size: 0.75em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entry .entry-content .wp-block-separator.is-style-wide, .entry .entry-content hr.is-style-wide {
+    margin-bottom: -0.8em;
+}
+
+.entry .entry-content .wp-block-separator, .entry .entry-content hr.wp-block-separator {
+    margin-bottom: -1em;
+}
+
+.entry .entry-content .wp-block-columns.has-2-columns {
+    margin-bottom: -2.3em;
+}
+
+.entry .entry-content .wp-block-columns.has-2-columns .wp-block-column .timespan {
+    margin-top: 1.1em;
+    margin-left: -5em;
+    color: gray;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor-styles-wrapper p.timespan {
+    color: gray;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/** 
+Styles für die einzelnen Templates 
+*/
+/**
+
+.entry .entry-content .wp-block-columns .wp-block-column.head_column_single{
+    flex-basis: calc(35% - 16px);
+}
+
+.head_single{
+    color: darkblue;
+    font-style: italic;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timespan_column_single{
+    width: 70%;
+}
+
+.timespan_single{
+    color: gray;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.day_single{
+    margin-bottom: -1.5em;
+    color: darkred;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.date_single{
+    color: lightslategray;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article_single{
+    color: black;
+    font-size: 0.75em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entry .entry-content .wp-block-separator.is.style-wide, .entry .entry-content hr.is-style-wide {
+    background-color: darkgrey;
+
+}
+
+.entry .entry-content .wp-block-separator.separator_single, .entry .entry-content hr.wp-block-separator.separator_single {
+    margin-bottom: -1em;
+    background-color: darkgrey;
+}
+
+/**TESTAREA*/

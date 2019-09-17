@@ -1,0 +1,30 @@
+/**
+*Standart CSS-Datei für die Custom-Blocks
+*/
+
+.is-style-fancy-quote {
+    color: tomato;
+}
+
+.wp-block-johann-bericht-02-stylesheet {
+    color: darkred;
+    background: #fcc;
+    border: 2px solid #c99;
+    padding: 20px;
+}
+
+.wp-block-johann-bericht-final {
+    color: goldenrod;
+}
+
+.johann-bericht-align-left {
+	text-align: left;
+}
+
+.johann-bericht-align-right {
+	text-align: right;
+}
+
+.johann-bericht-align-center {
+	text-align: center;
+}

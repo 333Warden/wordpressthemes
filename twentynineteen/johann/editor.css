@@ -1,0 +1,21 @@
+/**
+*CSS-Datei für den Editor
+*/
+
+.wp-block-johann-bericht-02-stylesheet {
+    color: green;
+    background: #cfc;
+    border: 2px solid #9c9;
+    padding: 20px;
+}
+
+.wp-block-johann-bericht-final {
+    color: blue;
+    padding: 1em;
+}
+
+.wp-block-johann-bericht-final-tage {
+    font-size: 1,25em;
+    font-style: italic;
+    color: darkmagenta;
+}

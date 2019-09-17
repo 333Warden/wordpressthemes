@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*
+Definition Breite für die Hauptspalten
+*/
+.entry .entry-content .wp-block-columns {
+  max-width: 100%;
+}
+
+/*
+Style für die einzelnen Columns
+*/
+.wp-block-columns .wp-block-column.head_column_single {
+  color: darkblue;
+  font-style: italic;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  -ms-flex-preferred-size: calc(25% - 16px);
+      flex-basis: calc(25% - 16px);
+}
+
+.wp-block-columns .timespan_column_single {
+  margin-top: 1.3rem;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wp-block-columns .wp-block-column .day_single {
+  margin-bottom: -2rem;
+  color: darkred;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium';
+}
+
+.wp-block-columns .wp-block-column .date_single {
+  margin-bottom: 0rem;
+  color: gray;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Entry Überschreibungen für das twentynineteen-Theme
+*/
+.entry .entry-content .wp-block-columns.headline {
+  margin-bottom: -3.5rem;
+}
+
+.entry .entry-content hr.wp-block-separator {
+  background-color: gray;
+  margin-bottom: -1.4rem;
+  max-width: 20%;
+}
+
+.entry .entry-content hr.wp-block-separator.is-style-wide {
+  background-color: gray;
+  margin-bottom: -1rem;
+  max-width: 90%;
+}
+
+.entry .entry-content .wp-block-columns .wp-block-column .wp-block-column .article_single {
+  margin-bottom: -0.3rem;
+}
+
+.entry .entry-content .wp-block-columns .wp-block-column .article_single {
+  margin-bottom: -0.1rem;
+  color: black;
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Style für das Backend
+*/
+.editor-styles-wrapper p.head_single {
+  color: darkblue;
+  font-style: italic;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  -ms-flex-preferred-size: calc(35% - 16px);
+      flex-basis: calc(35% - 16px);
+}
+
+.editor-styles-wrapper p.timespan_single {
+  color: gray;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor-styles-wrapper p.day_single {
+  color: darkred;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium';
+}
+
+.editor-styles-wrapper p.date_single {
+  color: gray;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editor-styles-wrapper p.article_single {
+  color: black;
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=template.css.map */

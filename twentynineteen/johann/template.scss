@@ -1,0 +1,117 @@
+$main-color: darkblue;
+$secondary-color: darkred;
+$ternary-color: gray;
+
+/*
+Definition Breite für die Hauptspalten
+*/
+.entry {
+    .entry-content {
+        .wp-block-columns{
+        max-width: 100%;
+        }
+    }
+}
+
+/*
+Style für die einzelnen Columns
+*/
+.wp-block-columns {
+    .wp-block-column.head_column_single {
+        color: $main-color;
+        font-style: italic;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-basis: calc(25% - 16px);
+    }
+    .timespan_column_single {
+        margin-top: 1.3rem;
+        color: $ternary-color;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .wp-block-column {
+        .day_single{
+            margin-bottom: -2rem;
+            color: $secondary-color;
+            font-size: 1.5rem;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium';
+        }
+        .date_single{
+            margin-bottom: 0rem;
+            color: $ternary-color;
+            font-size: 1.25rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+/*
+Entry Überschreibungen für das twentynineteen-Theme
+*/
+.entry {
+    .entry-content{
+        .wp-block-columns.headline {
+            margin-bottom: -3.5rem;
+        }    
+        hr.wp-block-separator {
+            background-color: $ternary-color;
+            margin-bottom: -1.4rem;
+            max-width: 20%;
+        }
+        hr.wp-block-separator.is-style-wide{
+            background-color: $ternary-color;
+            margin-bottom: -1rem;
+            max-width: 90%;
+        }
+        .wp-block-columns {
+            .wp-block-column{
+                .wp-block-column{
+                    .article_single{
+                        margin-bottom: -0.3rem;
+                    }
+                }
+                .article_single{
+                    margin-bottom: -0.1rem;
+                    color: black;
+                    font-size: 0.75rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }    
+    }
+}
+
+/*
+Style für das Backend
+*/
+.editor-styles-wrapper {
+    p.head_single {
+        color: $main-color;
+        font-style: italic;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-basis: calc(35% - 16px);
+    }
+    p.timespan_single{
+        color: $ternary-color;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p.day_single{
+        color: $secondary-color;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium';
+    }
+    p.date_single{
+        color: $ternary-color;
+        font-size: 1.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p.article_single{
+        color: black;
+        font-size: 0.75rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
